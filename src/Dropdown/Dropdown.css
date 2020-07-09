@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+.dropdown {
+	flex: 2;
+	width: 94px;
+	height: 38px;
+	background-color: bisque;
+}

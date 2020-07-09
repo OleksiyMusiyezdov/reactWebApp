@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+.logo {
+	flex: 1;
+	padding-left: 30px;
+	display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+	white-space: nowrap;
+	color: #76ff03;
+	font-size: 20px;
+}
+
+#logo1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.0em
+}
+
+#logo2 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 0.9em
+}
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+.headerResponsive {
+	flex: 1;
+	padding-right: 15px;
+	font-size: 14px;
+	display: block;
+    position: relative;
+	box-sizing: border-box;
+	text-align: right;
+	align-items:center;
+	flex-direction:row;
+	font-family:"Roboto";
+	font-weight:400;
+	color: white;
+}
+
+#svg {
+	width: 24px;
+	height: 24px;
+	margin-bottom: -7px
+}
+
+#phone {
+	font-size: 24px
+}
