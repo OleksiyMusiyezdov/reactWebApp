@@ -8,7 +8,6 @@ function Stuff() {
         <LangContext.Consumer>
             {(value) => (
                 <div className="stuff">
-
                     <div className="faq_title">{value.stuff_1_title}</div>
                     <div className="faq_subtitle">
                         <ul>
