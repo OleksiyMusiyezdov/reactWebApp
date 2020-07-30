@@ -1,24 +1,24 @@
 import React from 'react';
 import './Home.css';
-import Contacts from '../Contacts/Contacts';
 import Logo from '../Logo/Logo';
-// eslint-disable-next-line
+import Contacts from '../Contacts/Contacts';
 import Dropdown from '../Dropdown/Dropdown';
+import Titles from '../Titles/Titles';
+import Hidden from '../Hidden/Hidden';
 
 function Home() {
+
     return (
-        <div className="Home">
+        <div className="home">
             <nav className="navbar navbar-expand-md navbar-light sticky-top" id="navbar"> {/* Подключить Bootstrap */}
-                <div className="container-fluid" id="container-fluid">
-
-                    <Logo />
-
-                    <div className="navbarResponsive">
-                        <Contacts />
-                        {/* <Dropdown /> */}
-                    </div>
+                <Logo />
+                <div className="navbarResponsive">
+                    <Contacts />
+                    <Dropdown />
                 </div>
             </nav>
+            <Titles />
+            <Hidden />
         </div >
     );
 }

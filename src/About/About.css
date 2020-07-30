@@ -1,0 +1,38 @@
+.about {
+    background-image: url(./img/Krakow_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+    /* width: 100%; */
+    height: 100%;
+    font-family: 'Roboto';
+}
+
+.about_container {
+    padding: 30px 100px 30px 150px;
+}
+
+.name {
+    color: white;
+    line-height: 0.75;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* padding-left: 0%; */
+    padding-bottom: 25px;
+}
+
+.footer_about_text {
+    color: aliceblue;
+    padding-right: 30px;
+    line-height: 2.0;
+    font-size: 17px;
+}
+
+.foot_list {
+    padding-top: 15px;
+}
+
+.footer_photo {
+    padding-top: 15px;
+}

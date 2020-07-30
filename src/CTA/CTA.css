@@ -1,0 +1,52 @@
+.cta {
+    background-image: url(cta_1.jpg);
+    font-family: 'Roboto';
+}
+
+.col_wrapper {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cta_title
+{
+	font-size: 30px;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 1.2;
+}
+.cta_subtitle
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(255,255,255,0.76);
+	line-height: 1.5;
+	margin-top: 14px;
+}
+
+.svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -7px;
+    fill: currentColor;
+}
+
+.or {
+    color: #EDF2F4;
+}
+
+.viber {
+    width: 28px;
+    height: 28px;
+    margin-bottom: -7px;
+}
+
+.fb {
+    font-size: 14;
+}
+
+.phone {
+    font-size: 18px;
+    margin-bottom: -7px;
+}

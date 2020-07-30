@@ -1,0 +1,13 @@
+.footer {
+    color: aliceblue;
+    width: 100%;
+    background: rgba(18,17,17,0.66);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

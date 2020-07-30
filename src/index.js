@@ -1,12 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home/Home';
+import Container from './Container/Container';
+//import ContextContainer from './ContextContainer/ContextContainer';
 import * as serviceWorker from './serviceWorker';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import { LangContext } from './LangContext';
+
+import en from './languages/en';
+import uk from './languages/uk';
+import ru from './languages/ru';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <Switch>
+        <Route exact path="/" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
+        <Route exact path="/en" render={() => <LangContext.Provider value={en}><Container /></LangContext.Provider>} />
+        <Route exact path="/uk" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
+        <Route exact path="/ru" render={() => <LangContext.Provider value={ru}><Container /></LangContext.Provider>} />
+      </Switch>
+    </Router>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

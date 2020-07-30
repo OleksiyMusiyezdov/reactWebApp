@@ -1,0 +1,38 @@
+.stuff {
+    font-family: 'Roboto';
+    width: 100%;
+    background: #f4f8fb;
+    /* padding-top: 39px; */
+    padding: 50px 200px 30px 200px;
+
+}
+.faq_title {
+    font-size: 34px;
+    font-weight: 600;
+    color: #404040;
+    line-height: 1.25;
+}
+
+.faq_subtitle {
+    padding-left: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #838383;
+    line-height: 1.75;
+    margin-top: 23px;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    margin-left: 0px;
+}
+
+ul {
+    margin-bottom: 0rem !important;
+}
+
+.col-lg-7 {
+    padding-left: 0px;
+}

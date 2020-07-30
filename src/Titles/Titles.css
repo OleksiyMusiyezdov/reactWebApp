@@ -1,0 +1,28 @@
+
+.home_content {
+    margin-top: 9%;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-left: 70px;
+    max-width: 590px;
+}
+
+.home_title{
+    padding-left: 15px;
+    color: #2c2c2c;
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.home_text {
+    margin-top: 10%;
+    color: #24140d;
+    font-size: 23px;
+}
+
+.list {
+    padding-left: 45px;
+    padding-bottom: 20px;
+    padding-right: -15px;
+}
