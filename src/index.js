@@ -18,6 +18,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
+        {/* TODO: Add {pl} */}
         <Route exact path="/" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
         <Route exact path="/en" render={() => <LangContext.Provider value={en}><Container /></LangContext.Provider>} />
         <Route exact path="/uk" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
