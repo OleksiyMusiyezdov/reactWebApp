@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Container from './Container/Container';
-//import ContextContainer from './ContextContainer/ContextContainer';
+
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { LangContext } from './LangContext';
 
+// TODO: Add {pl}
 import en from './languages/en';
 import uk from './languages/uk';
 import ru from './languages/ru';
