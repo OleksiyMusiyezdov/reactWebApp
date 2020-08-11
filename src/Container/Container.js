@@ -7,13 +7,13 @@ import CTA from '../CTA/CTA';
 import Stuff from '../Stuff/Stuff';
 import About from '../About/About';
 
-
 function Container() {
+
     return (
         <div className="Container">
             <Home />
+            <TopButton />
             <Services />
-            <TopButton scrollStepInPx='50' delayInMs='16.66' />
             <CTA />
             <Stuff />
             <About />
