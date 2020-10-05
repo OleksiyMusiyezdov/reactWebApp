@@ -9,7 +9,7 @@ function CTA() {
             {(value) => (
                 <div className="cta">
                     <div className="col_wrapper">
-                        <div className="cta_title">{value.cta_title}}</div>
+                        <div className="cta_title">{value.cta_title}</div>
                         <div className="cta_subtitle">
                             <div className="col">
                                 <div>

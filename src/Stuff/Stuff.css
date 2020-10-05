@@ -3,9 +3,37 @@
     width: 100%;
     background: #f4f8fb;
     /* padding-top: 39px; */
-    padding: 50px 200px 30px 200px;
+    padding: 50px 150px 50px 150px;
 
 }
+
+@media only screen and (max-width: 992px) {
+    .stuff {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+        padding: 30px 100px 30px 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .stuff {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .stuff {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+        padding: 20px 30px 20px 30px;
+    }
+}
+
 .faq_title {
     font-size: 34px;
     font-weight: 600;
@@ -36,3 +64,9 @@ ul {
 .col-lg-7 {
     padding-left: 0px;
 }
+
+.bigpicture {
+	width: 100%;
+	min-width: 150px;
+}
+

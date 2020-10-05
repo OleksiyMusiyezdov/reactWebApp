@@ -26,3 +26,16 @@
     font-family: 'Roboto';
     font-weight: 600;
 }
+
+@media (max-width: 575px) {
+
+    .hidden {
+        /* visibility: hidden; */
+        margin-left: 25px;
+        padding-right: 25%;
+        padding-top: 55px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 590px;
+    }
+}
