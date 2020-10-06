@@ -1,6 +1,8 @@
 .cta {
-    background-image: url(cta_1.jpg);
+    /* background-image: url(cta_1.jpg); */
+    background-image: url(stay_fit_at_home_feature-2.jpg);
     font-family: 'Roboto';
+	background-position: center center;
 }
 
 .col_wrapper {

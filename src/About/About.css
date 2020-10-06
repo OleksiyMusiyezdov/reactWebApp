@@ -11,6 +11,15 @@
 .about_container {
     padding: 30px 100px 30px 150px;
 }
+@media only screen and (max-width: 480px)
+{
+	.about_container {
+      padding: 20px 20px 20px 20px;
+  }
+  .footer_about_text {
+      font-size: 13px !important;
+    }
+}
 
 .name {
     color: white;

@@ -1,6 +1,6 @@
 
  .hidden {
-    /* visibility: hidden; */
+    visibility: hidden;
     margin-left: 100px;
     padding-right: 25px;
     padding-top: 55px;
@@ -27,15 +27,35 @@
     font-weight: 600;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
 
     .hidden {
-        /* visibility: hidden; */
-        margin-left: 25px;
-        padding-right: 25%;
-        padding-top: 55px;
+        visibility: visible;
+        margin-left: 65px;
+        padding-right: 40%;
+        padding-top: 25px;
         display: flex;
         justify-content: space-between;
         max-width: 590px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .hidden {
+        /* padding-right: 25%; */
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 590px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hidden {
+        padding-top: 20px;
+        margin-left: 35px;
+        padding-right: 30%;
     }
 }
