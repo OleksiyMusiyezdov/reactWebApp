@@ -24,9 +24,9 @@ const lang = {
     "cta_title": "Contact us now and we will answer all your questions",
 
     "stuff_1_title": "We find out",
-    "stuff_1_text_1": " - your goals and wishes",
-    "stuff_1_text_2": " - health condition and body abilities",
-    "stuff_1_text_3": " - training conditions (preferred time and place, equipment availability, etc.)",
+    "stuff_1_text_1": "your goals and wishes",
+    "stuff_1_text_2": "health condition and body abilities",
+    "stuff_1_text_3": "training conditions (preferred time and place, equipment availability, etc.)",
 
     "stuff_2_title": "We create",
     "stuff_2_text": "personal training program with the best suitable exercises",
@@ -41,8 +41,8 @@ const lang = {
     "stuff_5_text": "tips on how to achieve your goal",
 
     "stuff_6_title": "Coach",
-    "stuff_6_text_1": " - takes into account changes in health and/or training conditions",
-    "stuff_6_text_2": " - adjusts the training program and prepares for the next meeting",
+    "stuff_6_text_1": "takes into account changes in health and/or training conditions",
+    "stuff_6_text_2": "adjusts the training program and prepares for the next meeting",
 
     "stuff_7_title": "Nutrition consultations",
     "stuff_7_text": "Additionally, you can order an individual nutrition program and receive regular monitoring of the coach, consultations and adjustments to this program, based on your current circumstances. In particular, the coach takes into account the availability of certain products for you in terms of your daily schedule",

@@ -11,15 +11,6 @@
 .about_container {
     padding: 30px 100px 30px 150px;
 }
-@media only screen and (max-width: 480px)
-{
-	.about_container {
-      padding: 20px 20px 20px 20px;
-  }
-  .footer_about_text {
-      font-size: 13px !important;
-    }
-}
 
 .name {
     color: white;
@@ -44,4 +35,43 @@
 
 .footer_photo {
     padding-top: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+    .about_container {
+        padding: 30px 80px 30px 80px;
+    }
+    .footer_photo {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media only screen and (max-width: 626px) {
+    .about_container {
+        padding: 30px 50px 30px 50px;
+    }
+    .footer_about_text {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 514px) {
+    .footer_photo {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+	.about_container {
+      padding: 20px 20px 20px 20px;
+  }
+  .footer_about_text {
+      font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .footer_photo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

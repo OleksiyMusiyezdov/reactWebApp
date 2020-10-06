@@ -8,7 +8,9 @@
 .col_wrapper {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .cta_title
@@ -51,4 +53,19 @@
 .phone {
     font-size: 18px;
     margin-bottom: -7px;
+}
+
+@media only screen and (max-width: 480px) {
+    .col_wrapper {
+        padding: 30px 30px 30px 30px;
+    }
+    
+    .cta_title
+    {
+        font-size: 20px;
+    }
+    .cta_subtitle
+    {
+        font-size: 14px;
+    }
 }

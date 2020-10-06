@@ -37,7 +37,7 @@ function Stuff() {
                                 </div>
                             </div>
                             <div className="col-lg-5">
-                                <div className="stuff_pic_1">
+                                <div className="stuff_pic">
                                     <img className="bigpicture" src={require("./coach_gym_women_new457px.jpg")} alt="" height="auto" max-width="100%"></img>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ function Stuff() {
                                 </div>
                             </div>
                             <div className="col-lg-5">
-                                <div className="stuff_pic_2">
+                                <div className="stuff_pic">
                                     <img className="bigpicture" src={require("./bread-breakfast-coffee-374052_457px.jpg")} alt="" height="auto" max-width="100%"></img>
                                 </div>
                             </div>
