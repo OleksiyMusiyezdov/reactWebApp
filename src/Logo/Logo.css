@@ -16,7 +16,8 @@
 
 #logo1 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.0em
+	font-size: 1.0em;
+	/* font-weight: 500; */
 }
 
 #logo2 {

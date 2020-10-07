@@ -1,9 +1,9 @@
 
 .home_content {
-    margin-top: 9%;
+    margin-top: 10%;
     font-family: 'Roboto';
     font-weight: 600;
-    margin-left: 70px;
+    margin-left: 110px;
     max-width: 590px;
 }
 
@@ -47,6 +47,9 @@
     .home_title {
 
     }
+    .home_text {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 626px) {
@@ -74,12 +77,15 @@
 		top: 100px;
         /* margin-top: 30px; */
         margin-left: 0px;
-        margin-right: 25%;
+        margin-right: 35%;
         padding-top: 0px;
         padding-left: 35px;
     }
     .home_title {
         font-size: 27px;
+    }
+    .home_text {
+        margin-top: 40px;
     }
     .list {
         padding-left: 0px;

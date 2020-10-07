@@ -11,6 +11,7 @@ import { LangContext } from './LangContext';
 
 // TODO: Add {pl}
 import en from './languages/en';
+import pl from './languages/pl';
 import uk from './languages/uk';
 import ru from './languages/ru';
 
@@ -21,6 +22,7 @@ ReactDOM.render(
         {/* TODO: Add {pl} */}
         <Route exact path="/" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
         <Route exact path="/en" render={() => <LangContext.Provider value={en}><Container /></LangContext.Provider>} />
+        <Route exact path="/pl" render={() => <LangContext.Provider value={pl}><Container /></LangContext.Provider>} />
         <Route exact path="/uk" render={() => <LangContext.Provider value={uk}><Container /></LangContext.Provider>} />
         <Route exact path="/ru" render={() => <LangContext.Provider value={ru}><Container /></LangContext.Provider>} />
       </Switch>
